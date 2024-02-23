@@ -55,21 +55,21 @@ gsap.from("nav ul li",{
 
 gsap.from(".small-name",{
     y:-200,
-    delay:1,
+    delay:.2,
 })
 gsap.from(".icons",{
     x:-300,
-    delay:2,
+    delay:.6,
 
 })
 gsap.from(".intro h1",{
     x:-500,
-    delay:3,
+    delay:.9,
 
 })
 gsap.from(".anii",{
     x:-500,
-    delay:4,
+    delay:1.3,
 
 })
 gsap.from(".animated-btn-home",{
@@ -80,7 +80,7 @@ gsap.from(".animated-btn-home",{
 
 gsap.from(".main-img",{
     y:-1000,
-     delay:6,
+     delay:1.6,
  
  })
 //  scroll trigger animation about page
