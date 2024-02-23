@@ -221,7 +221,7 @@ gsap.from(".contact .contact-content .contact-left",{
 
 gsap.from(".contact .contact-content .contact-right input,textarea,.sumbit",{
     x:600,
-    delay:1,
+    delay:3,
     stagger:0.3,
     scrollTrigger:{
         scroller:"body",
