@@ -95,7 +95,6 @@ gsap.from(".about .right .heading h1",{
       })
 gsap.from(".about .right .box",{
 x:-500,
-delay:1,
 scrollTrigger:{
     scroller:"body",
     trigger:".about .right .box",
@@ -103,7 +102,7 @@ scrollTrigger:{
 })
 gsap.from(".myself p",{
     x:1000,
-    delay:2,
+    delay:1,
     stagger:0.3,
     scrollTrigger:{
         scroller:"body",
@@ -115,7 +114,7 @@ gsap.from(".myself p",{
 
 gsap.from(".about-btn .btn",{
     x:-200,
-    delay:3,
+    delay:2,
     scrollTrigger:{
         scroller:"body",
         trigger:".about-btn .btn",
@@ -127,7 +126,7 @@ gsap.from(".about-btn .btn",{
 gsap.from(".about .left .img-cont",{
    opacity:0,
    scale:0,
-    delay:4,
+    delay:2,
     scrollTrigger:{
         scroller:"body",
         trigger:".about .left .img-cont",
