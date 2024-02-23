@@ -148,15 +148,7 @@ scale:0,
     }
 })
 
-gsap.from(".services .boxes ",{
-    scale:0,
-    opacity:0,
-        scrollTrigger:{
-            scroller:"body",
-            trigger:".services .boxes ",
-          
-        }
-    })
+
     
     
 
