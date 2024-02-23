@@ -22,7 +22,8 @@ let menu=document.querySelector(".menu");
 let links=document.querySelector(".links");
 
 menu.addEventListener("click",()=>{
-    links.classList.toggle("links-active")
+    links.classList.toggle("links-active");
+
 });
 let linksLi=document.querySelectorAll(".links li");
 let links2=document.querySelector(".links");
@@ -36,11 +37,7 @@ linksLi.forEach(val=>{
 
 });
 
-let bars=document.querySelector("#bars");
 
-bars.addEventListener("click",()=>{
-    bars.classList.toggle("bars-active")
-})
 
 
 // gsap animation
@@ -86,13 +83,164 @@ gsap.from(".main-img",{
      delay:6,
  
  })
+//  scroll trigger animation about page
+
+gsap.from(".about .right .heading h1",{
+    opacity:0,
+      scrollTrigger:{
+          scroller:"body",
+          trigger:".about .right .heading h1",
+    
+      }
+      })
+gsap.from(".about .right .box",{
+x:-500,
+delay:1,
+scrollTrigger:{
+    scroller:"body",
+    trigger:".about .right .box",
+}
+})
+gsap.from(".myself p",{
+    x:1000,
+    delay:2,
+    stagger:0.3,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".myself p",
+    }
+    })
+    
+
+
+gsap.from(".about-btn .btn",{
+    x:-200,
+    delay:3,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".about-btn .btn",
+    }
+})
  
 
 
+gsap.from(".about .left .img-cont",{
+   opacity:0,
+   scale:0,
+    delay:4,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".about .left .img-cont",
+    }
+})
+    
+
+
+// services section animation
+
+
+
+gsap.from(".services .services-heading",{
+scale:0,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".services .services-heading",
+    }
+})
+
+gsap.from(".services .boxes ",{
+    scale:0,
+    opacity:0,
+        scrollTrigger:{
+            scroller:"body",
+            trigger:".services .boxes ",
+          
+        }
+    })
+    
+    
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// skill animation
+
+gsap.from(".skill .skill-heading",{
+    scale:0,
+    scrollTrigger:{
+       scroller:"body",
+       trigger: ".skill .skill-heading",
+    }
+})
+
+gsap.from(".skill .skil-head .html .line-inside",{
+    x:-100,
+    opacity:0,
+    stagger:0.4,
+    delay:.5,
+    scrollTrigger:{
+       scroller:"body",
+       trigger: ".skill .skil-head .html .line-inside",
+      
+    }
+})
+    
+
+
+// contact animation
+
+
+
+gsap.from(".contact .contact-heading",{
+    scale:0,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".contact .contact-heading",
+
+    }
+})
+gsap.from(".contact .contact-content .contact-left",{
+    x:-500,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".contact .contact-content .contact-left",
+    
+    }
+})
+
+gsap.from(".contact .contact-content .contact-right input,textarea,.sumbit",{
+    x:600,
+    delay:1,
+    stagger:0.3,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".contact .contact-content .contact-right input,textarea,button",
+   
+    }
+})
+
+
+gsap.from(".footer p",{
+    opacity:0,
+    scale:0,
+    y:200,
+    delay:2,
+    scrollTrigger:{
+        scroller:"body",
+        trigger:".footer .p",
+    }
+})
 
 
 

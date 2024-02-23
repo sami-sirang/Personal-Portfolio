@@ -193,8 +193,7 @@ bottom:0;
 
 .about{
     width:100%;
-    padding:10vh 8% 20vh 
-    8%;
+    padding:10vh 8% 20vh 8%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -229,6 +228,7 @@ bottom:0;
 }
 .about .right {
     width:60%;
+    overflow-x: hidden;
 }
 
 .about .right .heading h1{
@@ -283,8 +283,9 @@ margin:7px 0px;
     font-size: 1.6rem;
     text-align: justify;
     line-height: 25px;
+   
 }
-.myself p::first-letter{
+.myself .intro-capital::first-letter{
     font-size: 2.6rem;
     color:transparent;
     background:linear-gradient(rgb(57, 19, 19),#960707);
@@ -356,6 +357,7 @@ p::selection{
     position: relative;
     overflow: hidden;
     box-shadow:1px -2px 23px grey;
+    z-index:555,
 }
 .boxes .s-box:hover{
     transform: translateY(-5px);
@@ -487,6 +489,8 @@ p::selection{
 .contact{
     padding:8vh 5%;
     width:100%;
+    overflow-x: hidden;
+    position: relative;
    
 }
 .contact-heading h1{
