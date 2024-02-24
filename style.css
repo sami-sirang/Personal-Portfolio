@@ -11,6 +11,7 @@ body,html{
     font-size: 10px;
 
 }
+
 :root{
 --main-color:#b80000;
 --bg-color:#fff;
@@ -21,6 +22,18 @@ body,html{
     width:100%;
     background:linear-gradient(115deg,#000,#b80000);
     z-index: 1400;
+}
+.mouse-back{
+    height:30px;
+    width:30px;
+    background-color: #b80000;
+    border-radius:50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    z-index: 999;
+    scale:0;
+    transform: translate(-50%);
+    box-shadow: 1px 2px 40px #000000 ;
 }
 .main{
     height:100vh;

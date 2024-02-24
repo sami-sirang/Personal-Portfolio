@@ -235,4 +235,23 @@ gsap.from(".footer p",{
 
 
 
+let body=document.querySelector("body"); 
+let circle=document.querySelector(".mouse-back");
+    body.addEventListener("mousemove",(details)=>{
+        circle.style.left=details.x+"px";
+        circle.style.top=details.y+"px";
+        circle.style.scale=1;
+
+        body.addEventListener("mouseleave",()=>{
+            circle.style.scale=0;
+            circle.style.opacity=0;
+
+
+        })
+        body.addEventListener("mouseenter",()=>{
+            circle.style.scale=1;
+            circle.style.opacity=1;
+        })
+        })
+        
 
