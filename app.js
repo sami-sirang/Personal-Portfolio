@@ -58,22 +58,22 @@ gsap.from(".small-name",{
     delay:.2,
 })
 gsap.from(".icons",{
-    x:-300,
+    x:-600,
     delay:.6,
 
 })
 gsap.from(".intro h1",{
-    x:-500,
+    x:-900,
     delay:.9,
 
 })
 gsap.from(".anii",{
-    x:-500,
+    x:-900,
     delay:1.3,
 
 })
 gsap.from(".animated-btn-home",{
-   x:-500,
+   x:-900,
     delay:5,
 
 })
@@ -94,7 +94,7 @@ gsap.from(".about .right .heading h1",{
       }
       })
 gsap.from(".about .right .box",{
-x:-500,
+x:-900,
 scrollTrigger:{
     scroller:"body",
     trigger:".about .right .box",
@@ -113,7 +113,7 @@ gsap.from(".myself p",{
 
 
 gsap.from(".about-btn .btn",{
-    x:-200,
+    x:-500,
     delay:2,
     scrollTrigger:{
         scroller:"body",
