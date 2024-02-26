@@ -74,7 +74,7 @@ gsap.from(".anii",{
 })
 gsap.from(".animated-btn-home",{
    x:-900,
-    delay:5,
+    delay:1.7,
 
 })
 
