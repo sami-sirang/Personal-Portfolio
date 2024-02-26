@@ -44,43 +44,43 @@ linksLi.forEach(val=>{
 
 gsap.from(".menu",{
     y:-200,
-    delay:.3,
+    delay:.7,
     stagger :0.3,
 })
 gsap.from("nav ul li",{
     y:-200,
-    delay:.3,
+    delay:.7,
     stagger :0.3,
 })
 
 gsap.from(".small-name",{
     y:-200,
-    delay:.2,
+    delay:1.3
 })
 gsap.from(".icons",{
     x:-600,
-    delay:.6,
+    delay:1.6,
 
 })
 gsap.from(".intro h1",{
     x:-900,
-    delay:.9,
+    delay:2,
 
 })
 gsap.from(".anii",{
     x:-900,
-    delay:1.3,
+    delay:2.3,
 
 })
 gsap.from(".animated-btn-home",{
    x:-900,
-    delay:1.7,
+    delay:2.5,
 
 })
 
 gsap.from(".main-img",{
     y:-1000,
-     delay:1.6,
+     delay:3,
  
  })
 //  scroll trigger animation about page
